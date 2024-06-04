@@ -102,7 +102,7 @@ st.sidebar.write(
 st.sidebar.write("For more information, visit [Glaucoma Research Foundation](https://www.glaucoma.org).")
 
 # Main app layout
-x = "https://www.simpleimageresizer.com/_uploads/photos/e9d53556/unnamed_50.png"
+x = "https://github.com/yusufbadawi/glaucoma_detector/blob/941ba8f88a647b4c9edfd50012dcd559cc4476da/EyeLogo.png"
 st.image(x, use_column_width=False)
 st.title("EyeGuardian: Glaucoma Detection Assistant")
 st.write(
