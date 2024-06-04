@@ -31,7 +31,7 @@ st.markdown(
     """
     <style>
     .main {
-        background-color: #000000;
+        background: linear-gradient(160deg, #000000 30%, #242434 70%, #346496 100%);
         color: #FFFFFF;
     }
     .sidebar .sidebar-content {
@@ -84,7 +84,9 @@ st.markdown(
 )
 
 # Sidebar for additional information and navigation
-st.sidebar.title("GLAUCOMA DETECTOR")
+x = "https://www.simpleimageresizer.com/_uploads/photos/e9d53556/unnamed_1_25.png"
+st.sidebar.image(x, use_column_width=False)
+st.sidebar.title("EyeGuardian: Glaucoma Detection Assistant")
 st.sidebar.info(
     """
     **By: Ali Ahmed Shawki El Badawi**
@@ -102,8 +104,7 @@ st.sidebar.write(
 st.sidebar.write("For more information, visit [Glaucoma Research Foundation](https://www.glaucoma.org).")
 
 # Main app layout
-x = "https://github.com/yusufbadawi/glaucoma_detector/blob/941ba8f88a647b4c9edfd50012dcd559cc4476da/EyeLogo.png"
-st.image(x, use_column_width=False)
+
 st.title("EyeGuardian: Glaucoma Detection Assistant")
 st.write(
     """
@@ -144,7 +145,8 @@ st.markdown(
         <p>For more information, visit the <a href="https://www.glaucoma.org" target="_blank">Glaucoma Research Foundation</a>.</p>
     </div>
     """,
+    
     unsafe_allow_html=True
 )
 
-#test 
+
