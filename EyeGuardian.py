@@ -1,11 +1,14 @@
 import streamlit as st
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 import tensorflow as tf
 from PIL import Image, ImageOps
 import numpy as np
+from tensorflow import keras
 
 # Disable the deprecation warning for the file uploader encoding
 st.set_option('deprecation.showfileUploaderEncoding', False)
-st.set_page_config(page_title="EyeGuardian: Glaucoma Detection Assistant", page_icon="https://lh6.googleusercontent.com/proxy/-72rLbBuRJFqDKksT-FpFxD72Ly8lA_zTdDYQRRD9rq7zY4gWiUEt_0AmQzMZ2HSGju2xZMmh81FFVPOLSdzJr_Gxmb6elHrk56mzymeY8RUH9ptsL3xPoIZjjPlhJ-r")
+st.set_page_config(page_title="ResNet-50: Glaucoma Detection Assistant", page_icon="https://lh6.googleusercontent.com/proxy/-72rLbBuRJFqDKksT-FpFxD72Ly8lA_zTdDYQRRD9rq7zY4gWiUEt_0AmQzMZ2HSGju2xZMmh81FFVPOLSdzJr_Gxmb6elHrk56mzymeY8RUH9ptsL3xPoIZjjPlhJ-r")
 
 # Load the model with caching to optimize performance
 @st.cache(allow_output_mutation=True)
@@ -86,12 +89,12 @@ st.markdown(
 # Sidebar for additional information and navigation
 x = "https://www.simpleimageresizer.com/_uploads/photos/e9d53556/unnamed_1_25.png"
 st.sidebar.image(x, use_column_width=False)
-st.sidebar.title("EyeGuardian: Glaucoma Detection Assistant")
+st.sidebar.title("ResNet-50: Glaucoma Detection Assistant")
 st.sidebar.info(
     """
     **By: Ali Ahmed Shawki El Badawi**
     
-    By simply uploading an image of the eye, users can receive an assessment that helps in identifying the presence and severity of glaucoma, potentially saving vision through early intervention.
+    By simply uploading an image of the eye, users can receive an assessment that helps in identifying the presence of glaucoma, potentially saving vision through early intervention.
     """
 )
 st.sidebar.write("---")
@@ -105,7 +108,7 @@ st.sidebar.write("For more information, visit [Glaucoma Research Foundation](htt
 
 # Main app layout
 
-st.title("EyeGuardian: Glaucoma Detection Assistant")
+st.title("ResNet-50: Glaucoma Detection Assistant")
 st.write(
     """
     Welcome to the Glaucoma Detector! Please upload an image of your eye to receive an assessment.
