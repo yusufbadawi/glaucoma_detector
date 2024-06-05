@@ -139,7 +139,7 @@ else:
 
 # Additional footer or information
 st.write("---")
-st.write("**Note:** This tool is for informational purposes only and should not be used as a substitute for professional medical advice.")
+st.write("**Note:** This tool is for my **Bachelor Thesis** & informational purposes only and should not be used as a substitute for professional medical advice.")
 
 # Footer
 st.markdown(
