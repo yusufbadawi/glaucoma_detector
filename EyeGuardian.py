@@ -112,7 +112,7 @@ st.image(x, use_column_width=False)
 st.title("ResNet-50: Glaucoma Detection Assistant")
 st.write(
     """
-    Welcome to the Glaucoma Detector! Please upload an image of your eye to receive an assessment.
+    Welcome to the Glaucoma Detector! Please upload a fundus image of your eye to receive an assessment.
     """
 )
 
