@@ -118,7 +118,7 @@ st.write(
 )
 
 # File uploader for image input
-st.write("### Upload your eye image (JPG format)")
+st.write("### Upload your fundus eye image (JPG format)")
 file = st.file_uploader("", type=["jpg"])
 
 # Image prediction and result display
