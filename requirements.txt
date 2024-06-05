@@ -2,4 +2,4 @@ altair<5
 tensorflow<2.11
 streamlit==1.8.1
 pillow==8.3.2
-numpy==1.16.5
+numpy==1.26.4
