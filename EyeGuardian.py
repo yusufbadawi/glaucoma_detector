@@ -107,7 +107,8 @@ st.sidebar.write(
 st.sidebar.write("For more information, visit [Glaucoma Research Foundation](https://www.glaucoma.org).")
 
 # Main app layout
-
+x = "https://www.simpleimageresizer.com/_uploads/photos/e9d53556/German_University_in_Cairo_Logo_1_10.jpg"
+st.image(x, use_column_width=False)
 st.title("ResNet-50: Glaucoma Detection Assistant")
 st.write(
     """
@@ -144,7 +145,7 @@ st.write("**Note:** This tool is for informational purposes only and should not 
 st.markdown(
     """
     <div class="footer">
-        <p>&copy; 2024 Badawi. All rights reserved.</p>
+        <p>&copy; 2024 Ali Ahmed Shawki El Badawi. All rights reserved.</p>
         <p>For more information, visit the <a href="https://www.glaucoma.org" target="_blank">Glaucoma Research Foundation</a>.</p>
     </div>
     """,
