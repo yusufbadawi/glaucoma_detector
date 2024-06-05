@@ -87,7 +87,7 @@ st.markdown(
 )
 
 # Sidebar for additional information and navigation
-x = "https://www.simpleimageresizer.com/_uploads/photos/e9d53556/unnamed_1_25.png"
+x = "https://github.com/yusufbadawi/glaucoma_detector/blob/a351defbef0da3b1feb33141568bbc0f7ca32848/EyeLogo.png?raw=true"
 st.sidebar.image(x, use_column_width=False)
 st.sidebar.title("ResNet-50: Glaucoma Detection Assistant")
 st.sidebar.info(
