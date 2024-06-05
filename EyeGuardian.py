@@ -8,7 +8,7 @@ from tensorflow import keras
 
 # Disable the deprecation warning for the file uploader encoding
 st.set_option('deprecation.showfileUploaderEncoding', False)
-st.set_page_config(page_title="ResNet-50: Glaucoma Detection Assistant", page_icon="https://lh6.googleusercontent.com/proxy/-72rLbBuRJFqDKksT-FpFxD72Ly8lA_zTdDYQRRD9rq7zY4gWiUEt_0AmQzMZ2HSGju2xZMmh81FFVPOLSdzJr_Gxmb6elHrk56mzymeY8RUH9ptsL3xPoIZjjPlhJ-r")
+st.set_page_config(page_title="ResNet-50: Glaucoma Detection Assistant", page_icon="https://github.com/yusufbadawi/glaucoma_detector/blob/a351defbef0da3b1feb33141568bbc0f7ca32848/EyeLogo.png?raw=true")
 
 # Load the model with caching to optimize performance
 @st.cache(allow_output_mutation=True)
