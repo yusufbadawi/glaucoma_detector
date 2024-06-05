@@ -108,7 +108,7 @@ st.sidebar.write(
 st.sidebar.write("For more information, visit [Glaucoma Research Foundation](https://www.glaucoma.org).")
 
 # Main app layout
-x = "https://www.simpleimageresizer.com/_uploads/photos/e9d53556/German_University_in_Cairo_Logo_1_10.jpg"
+x = "https://github.com/yusufbadawi/glaucoma_detector/blob/main/German_University_in_Cairo_Logo_25.jpg?raw=true"
 st.image(x, use_column_width=False)
 st.title("ResNet-50: Glaucoma Detection Assistant")
 st.write(
