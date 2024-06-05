@@ -95,7 +95,7 @@ st.sidebar.info(
     **By: Ali Ahmed Shawki El Badawi**
     **Supervised By: Dr Mahmoud Khalil**
     
-    By simply uploading an image of the eye, users can receive an assessment that helps in identifying the presence of glaucoma, potentially saving vision through early intervention.
+    By simply uploading a fundus image of the eye, users can receive an assessment that helps in identifying the presence of glaucoma, potentially saving vision through early intervention.
     """
 )
 st.sidebar.write("---")
